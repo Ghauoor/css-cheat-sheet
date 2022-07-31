@@ -1,0 +1,208 @@
+/* {
+    margin: 0;
+    padding: 0;
+} */
+a{
+    text-decoration: none;
+    color: #333;
+
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+/* a:visited{
+    color: chocolate;
+} */
+
+.clr{
+    clear: both;
+}
+
+
+
+
+body{
+    
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+.button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+    border-width: 10px;
+    border-top-style: groove;
+
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: normal;
+}
+.box-2{
+     border: 5px dotted #ccc;
+     padding: 20px;
+     margin: 20px 0;
+}
+
+.catagories{
+    border: 1px  #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.catagories h2{
+    text-align: center;
+
+}
+
+.catagories ul{
+    padding: 30px;
+    list-style: circle;
+
+}
+.catagories li {
+    padding-bottom: 8px;
+    border-bottom:dotted 1px ;
+    /* list-style-image: url(); */
+
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 16px;
+}
+.my-form{
+    display: block;
+}
+.my-form input[type = "text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;   
+}
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 5px solid #ff343f;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../images/coffe.png.jpg);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #fff; 
+}
+
+.p-box h3{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h3{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+.fix-me{
+    position: fixed;
+    top: 40px;
+}
+/* .my-list li:first-child{
+    background: red;
+    color: #fff;
+}
+.my-list li:last-child{
+    background-color: dodgerblue;
+    color: #fff;
+}
+.my-list :nth-child(5){
+    background: yellow;
+} */
+.div-ul{
+    margin: 1em;
+    border: 1em  #ff343f;
+    border-radius: 1em;
+    padding: 1em;
+    background: blue;
+    border-width: 10px;
+    border-top-style: inset;
+
+}
+.my-list :nth-child(even){
+    margin: 1em;
+    background: red;
+    color: rgba(255, 255, 255, 0.998);
+    
+}
+.my-list :nth-child(odd){
+    background: dodgerblue;
+    color: rgb(255, 255, 255);
+}
+
+.my-list :nth-child(odd):hover{
+    background: red;
+    color: rgba(255, 255, 255, 0.998);
+}
+.my-list :nth-child(even):hover{
+    background: dodgerblue;
+    color: rgb(255, 255, 255);
+
+}
